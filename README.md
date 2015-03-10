@@ -43,7 +43,9 @@ Steps to completion:
 Division of labor:
 •	Everyone: Map out database layout, create and setup database, collect footage to populate the dataset
 •	Jordan:
-•	Ethan: 
+•	Ethan: Website structure/development
 •	Matthew:
 •	Jackson: Create software using Face++ API to populate database based on input 
 •	Nolan:
+
+Note: Since there are 3 major parts of our project (website, facial recognition, databse), and because 5%3 != 0, we will likely divide into teams, with some more specific parts being completed over time by many people.
