@@ -42,7 +42,7 @@ Steps to completion:
 
 Division of labor:
 •	Everyone: Map out database layout, create and setup database, collect footage to populate the dataset
-•	Jordan:
+•	Jordan: Backend development for querying the database and data visualization 
 •	Ethan: Website structure/development
 •	Matthew: Documentation, diagramming, recordkeeping
 •	Jackson: Create software using Face++ API  
