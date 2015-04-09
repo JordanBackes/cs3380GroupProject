@@ -24,8 +24,8 @@ class Facepp
     #public $server         = 'https://apius.faceplusplus.com/v2';
 
 
-    public $api_key         = 'cafcce0231e34dd5d032bd0f6f775aa5';        // set your API KEY or set the key static in the property
-    public $api_secret      = 'FV2wVSA0xWZTIV7IAsWO1kpFbHl-Bno5';        // set your API SECRET or set the secret static in the property
+    public $api_key         = 'e008841d3f30cd1b005f5bd98866a1e9';        // set your API KEY or set the key static in the property
+    public $api_secret      = 'D3u_LYApVChX762QsniMwhsFTwEgXy0h';        // set your API SECRET or set the secret static in the property
 
     private $useragent      = 'Faceplusplus PHP SDK/1.1';
 
