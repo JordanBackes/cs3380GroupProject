@@ -25,8 +25,8 @@
 		//declare face class with key and secret
 		$facepp = new Facepp();
 		//keys and secret are generated from account on website
-		$faceapp->api_key       = 'cafcce0231e34dd5d032bd0f6f775aa5';
-		$faceapp->api_secret    = 'FV2wVSA0xWZTIV7IAsWO1kpFbHl-Bno5';
+		$faceapp->api_key       = 'e008841d3f30cd1b005f5bd98866a1e9';
+		$faceapp->api_secret    = 'D3u_LYApVChX762QsniMwhsFTwEgXy0h';
 
 		//get input text from text box
 		//example: http://www.faceplusplus.com.cn/wp-content/themes/faceplusplus/assets/img/demo/1.jpg
