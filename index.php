@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<form method="POST" action="/~jn9qc/cs3380/project/index.php">
+<form method="POST" action="/~cs3380s15grp6/project/index.php">
     
     Enter URL: <input type="text" name="query_string" value="" /> <br /><br />
     
