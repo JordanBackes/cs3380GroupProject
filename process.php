@@ -9,8 +9,7 @@
 		$faceapp->api_secret    = 'D3u_LYApVChX762QsniMwhsFTwEgXy0h';
 	
 		//get image json data through GET, sent from other program
-		if (isset($_GET['faces']) $faces_data = json_decode($_GET['faces'], 1);
-		else exit;
+		$faces_data = json_decode($_GET['faces'], 1);
 
 		//set group name
 		$group_name = 'Sample Group';
