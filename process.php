@@ -12,7 +12,7 @@
 		$faces_data = json_decode($_GET['faces'], 1);
 
 		//set group name
-		$group_name = 'Sample Group';
+		$group_name = $_GET['group'];
 		//get the group info if it exists,
 		//if it doesn't exist then create a new group 
 		$response = $facepp->execute('/group/get_info', array("group_name" => $group_name));
@@ -20,7 +20,10 @@
 		
 			$response = $facepp->execute('/group/delete', array("group_name" => $group_name));
 			$response = $facepp->execute('/group/create', array("group_name" => $group_name));
-			echo "<p>Group created</p>\n";
+			echo "<p>Group " . $group_name . " was created</p>\n";
+		}
+		else {
+			echo "<p>Group " . $group_name . " exists</p>\n";
 		}
 	
 		//initialize random variables
